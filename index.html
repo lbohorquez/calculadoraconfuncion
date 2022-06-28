@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body class="contenedor">
+    <div class="elcuerpito">
+    <div class="Calculadora">
+        <div class="display">756.5</div>
+        <div class="botones">       
+            <button value="C" class="button tres" onclick="limpiar()">C</button-->
+            <!--input type="submit" value="C" class="button tres" onclick="limpiar()"-->
+            <button class="button tres" onclick="limpiarCE()">CE</button> 
+            <button value="%" class="button tres" onclick="agregarPorcentaje()">%</button> 
+            <button value="/" class="button dos" onclick="dividir()">/</button> 
+            <button value="7" class="button" onclick="agregarNumeroSiete()">7</button> 
+            <button value="8" class="button" onclick="agregarNumeroOcho()">8</button> 
+            <button value="9" class="button" onclick="agregarNumeroNueve()">9</button> 
+            <button value="X" class="button dos" onclick="multiplicar()">X</button> 
+            <button value="4" class="button" onclick="agregarNumeroCuatro()">4</button> 
+            <button value="5" class="button" onclick="agregarNumeroCinco()">5</button> 
+            <button value="6" class="button" onclick="agregarNumeroSeis()">6</button> 
+            <button value="-" class="button dos" onclick="restar()">-</button> 
+            <button value="1" class="button" onclick="agregarNumeroUno()">1</button> 
+            <button value="2" class="button" onclick="agregarNumeroDos()">2</button> 
+            <button value="3" class="button" onclick="agregarNumeroTres()">3</button> 
+            <button value="+" class="button dos" onclick="sumar()">+</button> 
+            <button value="0" class="button" onclick="agregarNumeroCero()">0</button> 
+            <button value="." class="button" onclick="agregarNumeroDobleCero()">00</button>
+            <button value=" " class="button" onclick="agregarPunto()">.</button>
+            <button class="button cuatro" onclick="resultado()">=</button>
+        </div>
+            <footer class="pie">                 
+            </footer>
+    </div>   
+    <script src="script.js"></script> 
+</div>   
+</body>
+</html>

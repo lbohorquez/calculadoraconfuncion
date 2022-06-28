@@ -1,0 +1,80 @@
+.contenedor{
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(32, 115, 175) 50%, rgb(19, 237, 168) 50%);
+     background:-o-repeating-linear-gradient(90deg, rgb(14, 70, 113)  50%, rgb(5, 146, 99) 50%);
+     background:-moz-radial-gradient(90deg, rgb(7, 101, 173) 50%, rrgb(81, 225, 177)50%);
+     background:-webkit-radial-gradient(90deg, rgb(9, 153, 237)  0%, rrgb(25, 178, 127)35%);
+ }
+ .elcuerpito{
+     width: 340px;
+     height: 480px;
+     background-color: black;
+     border-radius: 20px;
+     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+     background-color: rgb(68, 161, 255);
+ }
+ .Calculadora{
+     width: 330px;
+     border-color: rgb(215, 255, 242);
+     /*box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);*/
+     padding-left: 10px;
+     padding-top: 10px;
+ }
+ .botones{
+     display: grid;
+     height: 350px;
+     grid-template-columns: repeat(4,1fr);
+     align-items: center;
+     padding:10px;
+     background-color: rgb(68, 161, 255);
+ }
+ .button{
+     background-color: rgb(181, 232, 252); 
+     width: 100%;
+     height: 60px;
+     width: 65px;
+     border-radius: 50px ;
+     border: 2px solid rgb(173, 229, 252);
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ }
+ .dos{
+     background-color: rgb(103, 154, 204) ;
+     border: none ;
+ }
+ .tres{
+     background-color: rgb(57, 98, 139);
+     border: none;
+ }
+ .cuatro{
+     background-color: rgb(13, 36, 86);
+     border: none;
+ }
+ .dos, .tres, .cuatro{
+     color: white;
+ }
+ .pie{
+     /* height: 30px;
+     width: 100%;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     background-color: rgb(177, 245, 248);
+     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2); */
+ }
+ .display{
+     text-align: right;
+     height: 90px;
+     width: 310px;
+     font-size: 15px;
+     padding-right: 10px;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     background-color: rgb(180, 242, 221);
+     display: grid;
+     align-items: center;
+     font-size: 70px;
+ }
+ 
+ 
